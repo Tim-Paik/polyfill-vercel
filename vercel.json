@@ -1,0 +1,33 @@
+{
+  "cleanUrls": true,
+  "functions": {
+    "api/polyfill.js": {
+      "memory": 128,
+      "maxDuration": 5
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/polyfill.js",
+      "has": [
+        {
+          "type": "header",
+          "key": "User-Agent",
+          "value": "(?<ua>.*)"
+        }
+      ],
+      "destination": "/api/polyfill"
+    },
+    {
+      "source": "/polyfill.min.js",
+      "has": [
+        {
+          "type": "header",
+          "key": "User-Agent",
+          "value": "(?<ua>.*)"
+        }
+      ],
+      "destination": "/api/polyfill?min=true"
+    }
+  ]
+}

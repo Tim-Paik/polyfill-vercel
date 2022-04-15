@@ -1,0 +1,9 @@
+{
+  "name": "polyfill-vercel",
+  "version": "1.0.0",
+  "author": "Tim-Paik",
+  "license": "MIT",
+  "dependencies": {
+    "polyfill-library": "^3.111.0"
+  }
+}
