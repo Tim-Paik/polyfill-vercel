@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@financial-times/polyfill-useragent-normaliser@^1.10.1":
-  version "1.10.2"
-  resolved "https://registry.npmmirror.com/@financial-times/polyfill-useragent-normaliser/-/polyfill-useragent-normaliser-1.10.2.tgz#536c510c244027c286632d691a4ab221434051c6"
-  integrity sha512-/9xHARfrKdWHt1ZXoT+/GpKx2N7uX88U1m6tF61AYSGaJFYaFlSoL1I4WbQOGH4eTQVb1z0a9LfwXaWblpRTBg==
+"@financial-times/polyfill-useragent-normaliser@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.npmmirror.com/@financial-times/polyfill-useragent-normaliser/-/polyfill-useragent-normaliser-2.0.1.tgz#39cbfcc985776e13ad61e44bc04af95c6023a01b"
+  integrity sha512-I6zZJgy3cwM9ojo9NVNj5kNTkt96KIKhJQIPQ7vjROaDCpy+sTRQA2HLCjBFKgo0AzsqdMB43Tx0Szt/mf+00g==
   dependencies:
-    "@financial-times/useragent_parser" "^1.6.3"
+    "@financial-times/useragent_parser" "^1.6.1"
     semver "^7.1.1"
 
-"@financial-times/useragent_parser@^1.6.3":
+"@financial-times/useragent_parser@^1.6.1":
   version "1.6.3"
   resolved "https://registry.npmmirror.com/@financial-times/useragent_parser/-/useragent_parser-1.6.3.tgz#338e9d63b77152cda3b7244db7b9b9db996de361"
   integrity sha512-TlQiXt/vS5ZwY0V3salvlyQzIzMGZEyw9inmJA25A8heL2kBVENbToiEc64R6ETNf5YHa2lwnc2I7iNHP9SqeQ==
@@ -70,16 +70,16 @@ mnemonist@^0.38.5:
     obliterator "^2.0.0"
 
 obliterator@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.npmmirror.com/obliterator/-/obliterator-2.0.2.tgz#25f50dc92e1181371b9d8209d11890f1a3c2fc21"
-  integrity sha512-g0TrA7SbUggROhDPK8cEu/qpItwH2LSKcNl4tlfBNT54XY+nOsqrs0Q68h1V9b3HOSpIWv15jb1lax2hAggdIg==
+  version "2.0.4"
+  resolved "https://registry.npmmirror.com/obliterator/-/obliterator-2.0.4.tgz#fa650e019b2d075d745e44f1effeb13a2adbe816"
+  integrity sha512-lgHwxlxV1qIg1Eap7LgIeoBWIMFibOjbrYPIPJZcI1mmGAI2m3lNYpK12Y+GBdPQ0U1hRwSord7GIaawz962qQ==
 
-polyfill-library@^3.111.0:
-  version "3.111.0"
-  resolved "https://registry.npmmirror.com/polyfill-library/-/polyfill-library-3.111.0.tgz#caf37789d8f8dab1b648ad6ff225081aa6c06cbd"
-  integrity sha512-BLh/1m/QPKrH3fEmIICpHHOVoYb9naWKImWkYuGoh26sHFiNO01arJ1KXEQMYLfVl4btpCoX/bRdqQY9kIR/eQ==
+polyfill-library@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npmmirror.com/polyfill-library/-/polyfill-library-4.1.0.tgz#023ec0cb9c6dab2b3b4a22411b2c971738e1f641"
+  integrity sha512-pMEwfIlsNUe/a2jR30mCD0pGvk1gmCPyrbketF9ThK/hYRB5g4GAMt8aDLDiuwioGmFhfAlKwHe7yWzDbFCuYg==
   dependencies:
-    "@financial-times/polyfill-useragent-normaliser" "^1.10.1"
+    "@financial-times/polyfill-useragent-normaliser" "^2.0.0"
     from2-string "^1.1.0"
     graceful-fs "^4.2.8"
     merge2 "^1.0.3"

@@ -4,6 +4,6 @@
   "author": "Tim-Paik",
   "license": "MIT",
   "dependencies": {
-    "polyfill-library": "^3.111.0"
+    "polyfill-library": "^4.1.0"
   }
 }
