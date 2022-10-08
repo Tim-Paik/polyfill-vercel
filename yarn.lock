@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@financial-times/polyfill-useragent-normaliser@^2.0.0":
+"@financial-times/polyfill-useragent-normaliser@^2.0.1":
   version "2.0.1"
   resolved "https://registry.npmmirror.com/@financial-times/polyfill-useragent-normaliser/-/polyfill-useragent-normaliser-2.0.1.tgz#39cbfcc985776e13ad61e44bc04af95c6023a01b"
   integrity sha512-I6zZJgy3cwM9ojo9NVNj5kNTkt96KIKhJQIPQ7vjROaDCpy+sTRQA2HLCjBFKgo0AzsqdMB43Tx0Szt/mf+00g==
@@ -35,7 +35,7 @@ from2@^2.0.3:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-graceful-fs@^4.2.8:
+graceful-fs@^4.2.10:
   version "4.2.10"
   resolved "https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
@@ -62,28 +62,28 @@ merge2@^1.0.3:
   resolved "https://registry.npmmirror.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-mnemonist@^0.38.5:
-  version "0.38.5"
-  resolved "https://registry.npmmirror.com/mnemonist/-/mnemonist-0.38.5.tgz#4adc7f4200491237fe0fa689ac0b86539685cade"
-  integrity sha512-bZTFT5rrPKtPJxj8KSV0WkPyNxl72vQepqqVUAW2ARUpUSF2qXMB6jZj7hW5/k7C1rtpzqbD/IIbJwLXUjCHeg==
+mnemonist@^0.39.2:
+  version "0.39.3"
+  resolved "https://registry.npmmirror.com/mnemonist/-/mnemonist-0.39.3.tgz#8340fc2e180b0dff20dca0a44f7af13639ca1ccb"
+  integrity sha512-CQ9Nq2TjXH+bybu89QHHrJnv3FnGtozaQPna3gvGpgHSJhyfHR2khMN6EOL/Z1b6ikmbZgCUD2eOBtTS9FOdFw==
   dependencies:
-    obliterator "^2.0.0"
+    obliterator "^2.0.1"
 
-obliterator@^2.0.0:
+obliterator@^2.0.1:
   version "2.0.4"
   resolved "https://registry.npmmirror.com/obliterator/-/obliterator-2.0.4.tgz#fa650e019b2d075d745e44f1effeb13a2adbe816"
   integrity sha512-lgHwxlxV1qIg1Eap7LgIeoBWIMFibOjbrYPIPJZcI1mmGAI2m3lNYpK12Y+GBdPQ0U1hRwSord7GIaawz962qQ==
 
-polyfill-library@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmmirror.com/polyfill-library/-/polyfill-library-4.1.0.tgz#023ec0cb9c6dab2b3b4a22411b2c971738e1f641"
-  integrity sha512-pMEwfIlsNUe/a2jR30mCD0pGvk1gmCPyrbketF9ThK/hYRB5g4GAMt8aDLDiuwioGmFhfAlKwHe7yWzDbFCuYg==
+polyfill-library@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.npmmirror.com/polyfill-library/-/polyfill-library-4.5.0.tgz#d3b8b105ce6282e3268d975d4d577e32f9d7b474"
+  integrity sha512-97IyFmvssm12Ux2o65fqTIIgQtOu3y0v/FjBLXha1NUf+UjXeU+SX1+SMRMP+eDGoxDFedsG1pfrpBZpJ2AE7g==
   dependencies:
-    "@financial-times/polyfill-useragent-normaliser" "^2.0.0"
+    "@financial-times/polyfill-useragent-normaliser" "^2.0.1"
     from2-string "^1.1.0"
-    graceful-fs "^4.2.8"
+    graceful-fs "^4.2.10"
     merge2 "^1.0.3"
-    mnemonist "^0.38.5"
+    mnemonist "^0.39.2"
     stream-from-promise "^1.0.0"
     stream-to-string "^1.1.0"
     toposort "^2.0.2"
